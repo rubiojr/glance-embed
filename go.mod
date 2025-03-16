@@ -1,4 +1,4 @@
-module github.com/rubiojr/glance-view
+module github.com/rubiojr/glance-embed
 
 go 1.24.1
 
@@ -34,4 +34,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/glanceapp/glance => /home/rubiojr/git/rubiojr/glance
+replace github.com/glanceapp/glance => github.com/rubiojr/glance v0.7.3-0.20250316135657-bb4a8b2608ca
